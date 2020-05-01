@@ -1,4 +1,4 @@
 Recreating in code this calculator design
 
-![Image of Day 1 Design](https://dribbble.com/shots/2334270-004-Calculator)
+![Image of Day 1 Design](https://cdn.dribbble.com/users/121234/screenshots/2334270/_004_calculator.png)
 
