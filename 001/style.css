@@ -14,6 +14,23 @@ button {
     font-weight: 200;
    }
 
+   h1 {
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+    
+   }
+
+   a {
+       text-decoration: none;
+       color: white;
+   }
+
+   a:hover {
+       text-decoration: underline;
+   }
+
 .row {
     width: 100%;
 }
@@ -28,8 +45,8 @@ button {
 }
 
 .calculator {
-  width: 200px;
-  height: 400px;
+  width: 175px;
+  
   background-color: #fcfbfc;
   border-radius: 2px;
 }
@@ -45,12 +62,13 @@ button {
   font-weight: 200;
   text-align: right;
   padding-right: 20px;
+  padding-bottom: 10px;
 }
 
 .buttons {
-    background-color: rgba(0,0,0,0.6);
-    margin-left: -10px;
-    margin-right: -10px;
+    background-color: rgba(0,0,0,0.75);
+    margin-left: -13px;
+    margin-right: -13px;
     height: 50%;
     padding: 20px 0;
     display: grid;
@@ -58,4 +76,13 @@ button {
     align-items: center;
     justify-content: space-around;
     border-radius: 2px;
+}
+
+.equal-btn {
+    background: linear-gradient(300deg, rgb(253,81,47), rgb(194,106,70));
+    padding-bottom: 2px;
+    text-align: center;
+    color: rgba(255,255,255,0.6);
+    font-size: 30px;
+    font-weight: 100;
 }
