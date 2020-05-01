@@ -6,6 +6,7 @@ You can follow my progress on github or my twitter: https://twitter.com/craigden
 
 
 Day 1 Design: https://dribbble.com/shots/2334270-004-Calculator
+
 Day 1 Complete: https://30-days-of-design.netlify.app/day-1/index.html
 
 Day 2 Design: https://dribbble.com/shots/2388283-SignUp
