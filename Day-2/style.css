@@ -176,3 +176,13 @@ a:hover {
     left:31.5%;
 }
 
+.smaller-screens {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    display: none;
+  }
+}
+
