@@ -15,3 +15,5 @@ Day 2 Complete: https://30-days-of-design.netlify.app/day-2/index.html
 
 Day 3 Design: https://dribbble.com/shots/941313-Flat-UI-Buttons-PSD-Included
 
+Day 3 Complete: https://30-days-of-design.netlify.app/day-3/index.html
+
