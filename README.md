@@ -10,3 +10,8 @@ Day 1 Design: https://dribbble.com/shots/2334270-004-Calculator
 Day 1 Complete: https://30-days-of-design.netlify.app/day-1/index.html
 
 Day 2 Design: https://dribbble.com/shots/2388283-SignUp
+
+Day 2 Complete: https://30-days-of-design.netlify.app/day-2/index.html
+
+Day 3 Design: https://dribbble.com/shots/941313-Flat-UI-Buttons-PSD-Included
+
