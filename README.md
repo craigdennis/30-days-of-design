@@ -19,4 +19,6 @@ Day 3 Complete: https://30-days-of-design.netlify.app/day-3/index.html
 
 Day 4 Design: https://dribbble.com/shots/2837647-Pricing-horses
 
+Day 4 Complete: https://30-days-of-design.netlify.app/day-4/
+
 
