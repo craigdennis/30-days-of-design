@@ -1,0 +1,94 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+ 
+  background: linear-gradient(
+    180deg,
+    rgba(31, 159, 240, 1) 31%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    color: rgb(99,173,218);
+}
+
+p {
+    padding:0;
+    margin: 0;
+    margin: 10px auto;
+
+}
+
+button {
+    background-color: rgb(93,213,145);
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 200px;
+    padding: 10px 25px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  height: 100vh;
+  width: 80%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 22%;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.choose-btn {
+    opacity: 0;
+}
+
+.card:hover .choose-btn, .choose-btn:hover {
+    opacity: 1;
+    
+}
+
+.horse-img {
+  height: 40%;
+}
+
+.card-heading {
+  text-align: center;
+}
+
+.card-price {
+  text-align: center;
+}
