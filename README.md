@@ -21,4 +21,10 @@ Day 4 Design: https://dribbble.com/shots/2837647-Pricing-horses
 
 Day 4 Complete: https://30-days-of-design.netlify.app/day-4/
 
+Day 5 Design: https://www.siteinspire.com/websites/9456-feed-feed
+
+Day 5 Complete: https://30-days-of-design.netlify.app/day-5/index.html
+
+
+
 

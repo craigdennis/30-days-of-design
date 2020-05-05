@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Cousine:400,700|Merriweather+Sans:300,400,700&display=swap');
+
+a {
+  text-decoration: none;
+  color: rgb(81, 173, 237);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 12px;
+}
+
+input {
+  width: 20%;
+  height: 25px;
+  border: 2px solid rgb(230, 173, 163);
+  color: rgb(203, 120, 112);
+  background-color: rgb(252, 221, 211);
+}
+
+input::placeholder {
+  color: rgb(203, 120, 112);
+  padding-left: 10px;
+}
+
+select {
+  width: 20%;
+  height: 30px;
+  border: 2px solid rgb(230, 173, 163);
+  border-radius: 1px;
+  color: rgb(203, 120, 112);
+  background-color: rgb(252, 221, 211);
+}
+
+select option {
+  color: rgb(203, 120, 112);
+  background-color: rgb(252, 221, 211);
+}
+
+h3 {
+  font-size: 18px;
+  color: rgb(249, 223, 204);
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: underline;
+    color: rgb(249, 223, 204);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Cousine', monospace;
+}
+
+.top-section-heading {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: rgb(249, 223, 204);
+}
+
+.container {
+  width: 100vw;
+}
+
+.top-section {
+  background-color: rgb(217, 94, 79);
+  color: rgb(249, 223, 204);
+  padding: 0 40px 30px;
+}
+
+.advice {
+  margin-bottom: 50px;
+  padding-top: 10px;
+}
+
+.top-section-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-section {
+  background-color: rgb(252, 221, 211);
+}
+
+.search {
+  position: relative;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-img {
+    position: absolute;
+    height: 20px;
+    top: 35px;
+    left: 240px;
+}
+
+.top-section-left {
+  width: 40%;
+}
+
+.top-section-list {
+  font-size: 14px;
+}
+
+.bottom-section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bottom-section-heading {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(217, 94, 79);
+  margin-bottom: 150px;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 70px;
+  font-family: 'Cousine', monospace;
+}
+.bottom-section-subtitle {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(217, 94, 79);
+  font-size: 14px;
+}
+
+.subtitle {
+  font-size: 14px;
+}
