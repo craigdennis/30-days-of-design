@@ -28,7 +28,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     width: 30%;
-    height: 45%;
+    height: 50%;
     margin: 0 auto;
     background-color: white;
     border-radius: 20px;
@@ -39,8 +39,23 @@ a:hover {
     height: 100px;
 }
 
+.text {
+    text-align: center;
+}
+
+.arrow {
+    position: absolute;
+    right: 20px;
+    
+}
+
 .btn {
+    position: relative;
     background-color:rgb(81,173,237);
     color: white;
     font-size: 18px;
+    width: 50%;
+    padding: 10px 35px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgb(81,173,237);
 }
