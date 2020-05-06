@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+    color: rgb(81,173,237);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    height: 100vh;
+    background: linear-gradient(325deg, rgba(215,239,255,1) 31%, rgba(104,184,247,1) 100%);
+    display: flex;
+    align-items: center;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 45%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 50px;
+}
+
+.crown-img {
+    height: 100px;
+}
+
+.btn {
+    background-color:rgb(81,173,237);
+    color: white;
+    font-size: 18px;
+}
