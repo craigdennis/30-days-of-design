@@ -27,8 +27,11 @@ Day 5 Complete: https://30-days-of-design.netlify.app/day-5/index.html
 
 Day 6 Design: https://dribbble.com/shots/2348203-Pop-up
 
-
 Day 6 Complete: http://30-days-of-design.netlify.app/day-6/index.html
+
+Day 7 Design: https://collectui.com/designers/Yogesh13/sign-up
+
+Day 7 Complete: http://30-days-of-design.netlify.app/day-7/index.html
 
 
 

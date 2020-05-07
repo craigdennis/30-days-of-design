@@ -1,0 +1,121 @@
+a {
+  text-decoration: none;
+  color: rgb(81, 173, 237);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background: rgb(116, 56, 160);
+  background: linear-gradient(
+    330deg,
+    rgba(116, 56, 160, 1) 31%,
+    rgba(94, 74, 169, 1) 100%
+  );
+  height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.social-img {
+    height: 40px;
+    border: 1px solid rgb(175,81,109);
+    border-radius: 100%;
+    padding: 25px;
+ 
+}
+
+.under-lap {
+    position: relative;
+    z-index: 2;
+    background-color: rgb(56,19,96);
+}
+.over-lap {
+    position: relative;
+    right: 15px;
+    z-index: 5;
+    background-color: rgb(56,19,96);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: rgb(56,19,96);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.social-logins {
+    position: relative;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.facebook-login {
+    margin-right: 15px;
+}
+
+.input {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(56,19,96);
+    border: 1px solid rgb(175,81,109);
+    margin-bottom: 10px;
+    border-radius: 3px;
+    height: 35px;
+    color: white;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    padding-left: 15px;
+    color: white;
+    font-size: 16px;
+}
+
+.btn {
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+
+}
+
+.password-forgot {
+    color: rgb(175,81,109);
+    margin-bottom: 20px;
+}
+
+.divide {
+    background-color: rgb(175,81,109);
+    width: 100%;
+    border: none;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.login-btn {
+    color: white;
+    background-color: rgb(21,178,102);
+
+}
+
+.new-btn {
+background-color: rgb(255,206,0);
+color: black;
+}
+
