@@ -33,6 +33,10 @@ Day 7 Design: https://collectui.com/designers/Yogesh13/sign-up
 
 Day 7 Complete: http://30-days-of-design.netlify.app/day-7/index.html
 
+Day 8 Design: https://uidesigndaily.com/posts/figma-verification-code-app-authentication-mobile-verify-day-1083
+
+Day 8 Complete: http://30-days-of-design.netlify.app/day-8/index.html
+
 
 
 

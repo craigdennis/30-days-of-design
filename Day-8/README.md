@@ -1,7 +1,7 @@
 Day 8
 
-Recreating these collection of buttons
+Recreating verification and login screens
 
-![Image of Day X Design](https://uidesigndaily.com/uploads/1083/day_1083.png)
+![Image of Day 8 Design](https://uidesigndaily.com/uploads/1083/day_1083.png)
 
-https://uidesigndaily.com/posts/figma-verification-code-app-authentication-mobile-verify-day-1083
+

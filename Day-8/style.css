@@ -13,6 +13,10 @@ body {
   font-size: 14px;
 }
 
+.partial-heading {
+  color: white;
+}
+
 small {
   color: rgb(111, 112, 128);
   font-size: 10px;
