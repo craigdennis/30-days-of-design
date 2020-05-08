@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>30 Days of Design - Day 7 - Sign Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1 class="">Made By <a href="https://www.craigdennis.me">Craig</a></h1>
+      <h2>
+        <a href="https://github.com/craigdennis/30-days-of-design"
+          >30 Days of Design</a
+        >
+      </h2>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <div class="card-heading">
+          <h2>Login Verification</h2>
+
+          <p>
+            To continue logging in we need you to complete one of the following:
+          </p>
+        </div>
+
+        <div class="radio-buttons">
+          <div>
+            <input class="radio" type="radio" name="code" id="email" />
+            <label for="email">Verification code via email</label>
+          </div>
+
+          <div>
+            <input class="radio" type="radio" name="code" id="text" />
+            <label for="text">Verification code via SMS</label>
+            <br />
+          </div>
+          <small class="sms-msg"
+            >We'll send a code to your mobile phone <br />
+            that can enter to verify your identity</small
+          >
+        </div>
+
+        <button class="btn sms-btn">Send SMS Code</button>
+
+        <div>
+          <input type="checkbox" name="remember" id="remember" />
+          <label for="remember">Remember this device</label>
+        </div>
+
+        <small class="checkbox-msg"
+          >Don't select this option if you're using a <br />
+          public computer</small
+        >
+
+        <a class="return-to-login link" href="">Return to login</a>
+      </div>
+
+      <div class="card">
+        <div class="card-heading">
+          <h2>Login</h2>
+          <a href="#" class="link">Create an account</a>
+        </div>
+
+        <label class="input-labels" for="username">Username</label>
+        <input
+          class="login-inputs"
+          placeholder="Enter Your Username"
+          type="text"
+          id="username"
+        />
+
+        <label class="input-labels" for="password">Password</label>
+        <input
+          class="login-inputs"
+          placeholder="Enter Your Password"
+          type="password"
+          id="Password"
+        />
+
+        <button class="btn login-btn">Log In</button>
+
+        <div>
+          <input type="checkbox" name="logged-in" id="logged-in" />
+          <label for="logged-in">Keep me logged in</label>
+        </div>
+        <div class="footer">
+          <a href="#" class="link forgot-pass">Forgot Password?</a>
+
+          <small>2001 - 2020 All Rights Reserved</small>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
