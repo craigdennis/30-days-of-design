@@ -1,0 +1,84 @@
+a {
+  text-decoration: none;
+  color: rgb(81, 173, 237);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: rgb(239, 242, 248);
+  height: 100vh;
+}
+
+h3,
+h5 {
+  margin-bottom: 5px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 40%;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.container:after {
+  position: absolute;
+  display: inline-block;
+  content: '\00d7';
+  font-size: 25px;
+  right: 30px;
+  top: 20px;
+}
+
+.input {
+  width: 80%;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(234, 234, 234);
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.input::placeholder {
+  padding: 5px;
+}
+
+.input-section {
+  margin-bottom: 30px;
+}
+
+.btn {
+  width: 15%;
+  background-color: rgb(150, 119, 239);
+  color: white;
+  height: 35px;
+  border-radius: 5px;
+  box-shadow: 0 2px 7px rgb(150, 119, 239);
+  border: none;
+}
+
+.side-note {
+  background-color: rgb(248, 249, 253);
+  padding: 0 15px 15px;
+}
+
+.side-note-text {
+  font-size: 14px;
+}
+
+.read-more-link {
+    color: rgb(150, 119, 239);
+    text-decoration: underline;
+}

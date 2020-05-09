@@ -37,6 +37,10 @@ Day 8 Design: https://uidesigndaily.com/posts/figma-verification-code-app-authen
 
 Day 8 Complete: http://30-days-of-design.netlify.app/day-8/index.html
 
+Day 9 Design: https://uidesigndaily.com/posts/figma-share-link-modal-pop-up-submit-day-1080
+
+Day 9 Complete: http://30-days-of-design.netlify.app/day-9/index.html
+
 
 
 
