@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>30 Days of Design - Day 11 - Flow Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1 class="">Made By <a href="https://www.craigdennis.me">Craig</a></h1>
+      <h2>
+        <a href="https://github.com/craigdennis/30-days-of-design"
+          >30 Days of Design</a
+        >
+      </h2>
+    </div>
+    <div class="container">
+      <div class="exit">
+        <span class="close-btn">&times</span> <br />
+        ESC
+      </div>
+      <h5>Add a New Flow</h5>
+      <p class="subtitle">
+        <em> Flows help you better manage your guides by grouping them.</em>
+      </p>
+
+      <h6>Flow name</h6>
+      <input
+        class="flow-name inputs"
+        type="text"
+        placeholder="Name your flow"
+      />
+      <p class="flow-start-delay">Flow Start Delay</p>
+
+      <div class="flow-delay-container">
+        <input class="delay-input inputs" type="text" placeholder="ms" />
+        <input class="traversable-checkbox" type="checkbox" />
+        <p>Traversable</p>
+        <button class="info-btn">?</button>
+      </div>
+
+      <h6>Advanced Settings</h6>
+      <p>Select how this flow should be shown</p>
+      <div class="flow-buttons">
+        <button class="btn flow-settings">Auto</button>
+        <button class="btn flow-settings">URL</button>
+        <button class="btn flow-settings">Manual <br> <span>Advanced</span></button>
+      </div>
+      <div>
+        <select class="linkin-park" name="" id="">
+          <option value="">Starts with</option>
+          <option value="">One thing I don't know why</option>
+          <option value="">It doesn't even matter how hard you try</option>
+          <option value="">Keep that in mind I designed this rhyme</option>
+          <option value="">To explain in due time</option>
+          <option value="">All I know</option>
+          <option value="">Time is a valuable thing</option>
+          <option value="">Watch it fly by as the pendulum swings</option>
+          <option value="">Watch it count down to the end of the day</option>
+          <option value="">The clock ticks life away</option>
+        </select>
+        <input class="inputs" type="text" placeholder="/" />
+      </div>
+      <a class="add-link" href="#">+ Add another</a>
+      <div class="note">
+        This flow will be shown only on specific page or pages <br> you provide.
+      </div>
+      <div class="action-btn-container "><button class="btn action-btn ">Cancel</button> <button class="btn action-btn save-btn">Save Flow</button></div>
+    </div>
+  </body>
+</html>

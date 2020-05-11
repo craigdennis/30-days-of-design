@@ -1,0 +1,156 @@
+a {
+    text-decoration: none;
+    color: rgb(81,173,237);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(247,249,253);
+
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    border-radius: 3px;
+    border: 1px solid rgb(228,231,244);
+
+}
+
+.inputs {
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid rgb(228,231,244);
+    padding-left: 15px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    position: relative;
+    background-color: white;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 40px 40px;
+}
+
+.exit {
+    position: absolute;
+    right:20px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(151,163,195);
+}
+
+.close-btn {
+    font-size: 25px;
+}
+
+.subtitle {
+    margin-bottom: 35px;
+}
+
+.flow-name {
+    width: 80%;
+  
+}
+
+.flow-start-delay {
+    margin-bottom: -10px;
+    font-size: 14px;
+}
+
+.delay-input {
+    width: 10%;
+    margin-right: 20px;
+}
+
+.flow-delay-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+
+.info-btn {
+    border-radius: 100%;
+    border: none;
+    border: 1px solid rgb(228,231,244);
+    margin-left: 5px;
+
+}
+
+.traversable-checkbox {
+    margin-right: 5px;
+}
+
+.flow-settings {
+    padding: 10px 40px;
+    height:70px;
+    width:125px;
+    text-align: center;
+}
+
+.flow-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.linkin-park {
+    height: 25px;
+    background-color: white;
+    border: 1px solid rgb(228,231,244);
+}
+
+.add-link {
+    color: rgb(52,87,220);
+}
+
+.note {
+    width: 80%;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(247,249,253);
+    border-radius: 5px;
+}
+
+.action-btn-container {
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+
+}
+
+.action-btn {
+    margin-top: 20px;
+    padding: 20px 50px;
+    width: 48%;
+    
+}
+
+.save-btn {
+    color: white;
+    background-color: rgb(52,87,220);
+}
