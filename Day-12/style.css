@@ -1,0 +1,176 @@
+a {
+  text-decoration: none;
+  color: rgb(81, 173, 237);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.btn {
+  padding: 15px 30px;
+  border-radius: 3px;
+  border: none;
+  border: 1px solid rgb(0, 0, 0);
+  
+}
+
+.btn-1 {
+  
+
+  box-shadow: 0 2px 5px rgba(0,0,0,.6);
+  transition: all .2s;
+}
+.btn-1:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 5px rgba(0,0,0,.8);
+}
+
+.btn-2 {
+    transition: all .2s;
+}
+
+.btn-2:hover {
+    background-color: red;
+    color: white;
+    
+}
+
+.btn-3 {
+    transition: transform 0.2s;
+}
+
+.btn-3:hover {
+    animation: btn-3-hover 2s;
+    transform: scale(1.2);
+    
+}
+
+@keyframes btn-3-hover {
+    25% {transform: scale(1.5);}
+    100% {transform: scale(1.2);}
+}
+
+.btn-4:hover {
+    animation: btn-4-hover .2s;
+
+    
+}
+
+@keyframes btn-4-hover {
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.btn-5 {
+ 
+}
+
+.btn-5:hover {
+    animation: btn-5-hover .8s;
+    transform: scale(1.1);
+}
+
+
+
+
+@keyframes btn-5-hover {
+    25% {transform: scale(1.3);}
+    50% {transform: scale(1.2);}
+    75% {transform: scale(1.5);}
+    100% {transform: scale(1.1);}
+}
+
+.btn-6:hover {
+    animation: btn-6-hover .6s;
+}
+
+
+
+@keyframes btn-6-hover {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+  .btn-7 {
+    position: relative;
+    transition: all 0.5s ease;
+    overflow: hidden;
+  }
+  
+
+  .one .insider {
+    background-color: #fff;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: -135px;
+    transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+  }
+  .one:hover {
+    background-color: #F44336;
+    color: #fff;
+  }
+  .one:hover .insider {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    left: 135px;
+  }
+
+  .btn-8::before, .btn-8::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+      height: 100%;
+    bottom: 0;
+      left: 0;
+      z-index: 1;
+    transition: all 0.3s;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+
+  }
+
+
+
+
+
+
