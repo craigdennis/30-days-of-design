@@ -1,6 +1,3 @@
-Day 3
+Day 13
 
-Recreating these collection of buttons
-
-![Image of Day X Design](IMG LINK)
-
+Made a site myself, including the copy and the layout.
