@@ -1,3 +1,3 @@
-Day 12
+Day 13
 
-Made some buttons animations
+Made a site myself, including the copy and the layout.

@@ -50,9 +50,13 @@ https://uidesigndaily.com/posts/sketch-add-new-modal-app-form-create-day-1077
 
 Day 11 Complete:  http://30-days-of-design.netlify.app/day-11/index.html
 
-Day 12 Design: Own Design
+Day 12 Design: My Own Design
 
 Day 12 Complete: http://30-days-of-design.netlify.app/day-12/index.html
+
+Day 13 Design: My Own Design
+
+Day 13 Complete: http://30-days-of-design.netlify.app/day-13/index.html
 
 
 

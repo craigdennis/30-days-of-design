@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:300,400,500,700&display=swap');
+
+a {
+  text-decoration: none;
+  color: rgb(81, 173, 237);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Inconsolata', monospace;
+  font-size: 40px;
+}
+
+.container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  padding: 0 40px;
+}
+
+.text {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+}
+
+.images {
+  position: relative;
+  top: 200px;
+}
+
+.photo {
+  width: 35%;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  position: absolute;
+  z-index: 10;
+  transition: all 0.2s;
+  outline-offset: 1rem;
+}
+
+.photo:hover {
+  outline: 0.5rem solid rgb(81, 173, 237);
+  transform: scale(1.2) translateY(-0.5rem);
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+
+.photo:hover .photo:not(:hover) {
+  transform: scale(0.95);
+}
+
+.photo--1 {
+  left: 0;
+  top: -2rem;
+}
+
+.photo--2 {
+  left: 10%;
+  top: 2rem;
+}
+
+.photo--3 {
+  left: 30%;
+  top: 8rem;
+}
+
+.photo--4 {
+  right: 10%;
+  top: 2rem;
+}
+
+.photo--5 {
+  right: 0;
+  top: -2rem;
+}
+
+.btn {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(81, 173, 237);
+  color: white;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  transition: all .2s;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
