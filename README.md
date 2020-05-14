@@ -58,6 +58,12 @@ Day 13 Design: My Own Design
 
 Day 13 Complete: http://30-days-of-design.netlify.app/day-13/index.html
 
+Day 14 Design: Feature Card - Own Design
+
+Day 14 Complete: http://30-days-of-design.netlify.app/day-14/index.html
+
+
+
 
 
 

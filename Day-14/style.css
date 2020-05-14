@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700&display=swap');
+
+a {
+  text-decoration: none;
+  color: #EFD56E;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background: rgb(45, 49, 72);
+  background: linear-gradient(
+    336deg,
+    rgba(45, 49, 72, 1) 26%,
+    rgba(74, 144, 137, 1) 100%
+  );
+
+  font-family: 'Work Sans', sans-serif;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main-heading {
+  color: white;
+  margin-bottom: 100px;
+
+}
+
+.container {
+  text-align: center;
+  padding: 10px 50px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-img {
+  height: 100px;
+  transition: transform 0.2s;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 15%;
+  padding: 40px 40px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0);
+}
+
+.card:hover .feature-img {
+  transform: translateY(-15px);
+}
+
+.btn {
+  background-color: #DD1A16;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-size: 20px;
+  margin-bottom: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  transition: transform 0.4s;
+}
+
+.btn:hover {
+  background-color: rgb(185, 25, 22);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+  transform: translateY(-10px);
+}
