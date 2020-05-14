@@ -2,7 +2,7 @@
 
 a {
   text-decoration: none;
-  color: #EFD56E;
+  color: #efd56e;
 }
 
 a:hover {
@@ -28,7 +28,6 @@ body {
 .main-heading {
   color: white;
   margin-bottom: 100px;
-
 }
 
 .container {
@@ -68,7 +67,7 @@ body {
 }
 
 .btn {
-  background-color: #DD1A16;
+  background-color: #dd1a16;
   border: none;
   color: white;
   border-radius: 5px;
@@ -83,4 +82,26 @@ body {
   background-color: rgb(185, 25, 22);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
   transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 1000px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 70%;
+  }
 }
