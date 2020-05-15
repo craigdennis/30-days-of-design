@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,500&display=swap');
+
+a {
+  text-decoration: none;
+  color: rgb(81, 173, 237);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 150px;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card img {
+  height: 500px;
+  width: auto;
+}
+
+.card-1 img {
+  height: 700px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.card-title {
+  line-height: 0.5px;
+  text-transform: uppercase;
+}
+
+.partial-text {
+  position: relative;
+  top: -100px;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 0.1px;
+  text-transform: uppercase;
+}
+
+.card-2 {
+  position: relative;
+  top: -50px;
+}
+
+.card-3 {
+  position: relative;
+  top: -50px;
+  font-size: 80px;
+  justify-content: flex-end;
+}
