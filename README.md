@@ -66,6 +66,10 @@ Day 15 Design: Artwork Display Website - Own Design
 
 Day 15 Complete: http://30-days-of-design.netlify.app/day-15/index.html
 
+Day 16 Design: Festival Website - Own Design
+
+Day 15 Complete: http://30-days-of-design.netlify.app/day-116/index.html
+
 
 
 
