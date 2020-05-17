@@ -1,0 +1,98 @@
+a {
+  text-decoration: none;
+  color: rgb(81, 173, 237);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: rgb(249, 249, 249);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.left-section {
+  width: 40%;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.right-section {
+  width: 50%;
+  background-color: white;
+  
+}
+.quick-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  list-style: none;
+  padding-left: 20px;
+}
+
+ul li:before {
+  content: '✓';
+  padding-right: 10px;
+}
+
+.list-item {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+.btn {
+  color: white;
+  background: rgb(255, 161, 85);
+  background: linear-gradient(
+    132deg,
+    rgba(255, 161, 85, 1) 26%,
+    rgba(236, 106, 102, 1) 100%
+  );
+  width: 75%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 30px;
+  margin-top: 20px;
+}
+
+
+.top-section {
+    background: rgb(255, 161, 85);
+    background: linear-gradient(
+      132deg,
+      rgba(255, 161, 85, 1) 26%,
+      rgba(236, 106, 102, 1) 100%
+    );
+    color: white; 
+    padding:30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.top-heading {
+    margin: 0;
+}
+
+.bottom-section {
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 30px;
+}

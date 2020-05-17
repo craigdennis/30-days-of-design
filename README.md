@@ -68,7 +68,11 @@ Day 15 Complete: http://30-days-of-design.netlify.app/day-15/index.html
 
 Day 16 Design: Festival Website - Own Design
 
-Day 15 Complete: http://30-days-of-design.netlify.app/day-116/index.html
+Day 16 Complete: http://30-days-of-design.netlify.app/day-16/index.html
+
+Day 17 Design: https://uidesigndaily.com/posts/sketch-cards-checklist-links-card-button-gradient-components-list-day-1068
+
+Day 16 Complete: http://30-days-of-design.netlify.app/day-17/index.html
 
 
 
