@@ -72,7 +72,11 @@ Day 16 Complete: http://30-days-of-design.netlify.app/day-16/index.html
 
 Day 17 Design: https://uidesigndaily.com/posts/sketch-cards-checklist-links-card-button-gradient-components-list-day-1068
 
-Day 16 Complete: http://30-days-of-design.netlify.app/day-17/index.html
+Day 17 Complete: http://30-days-of-design.netlify.app/day-17/index.html
+
+Day 18 Design: https://www.siteinspire.com/websites/9470-publish-something-online
+
+Day 18 Complete: http://30-days-of-design.netlify.app/day-18/index.html
 
 
 
