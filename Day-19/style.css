@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap');
+
+
+a {
+    text-decoration: none;
+    color: rgb(81,173,237);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main-heading {
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+.main-heading h1 {
+    margin-bottom: 10px;
+}
+
+.divider {
+    height: 2px;
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.model-img {
+    height:auto;
+    width: 30vw;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.shop {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.shirt-img {
+    height: 80vh;
+    width: 40vw;
+    transition: all .2s;
+}
+
+.img-1 {
+    background: url('t-shirt-1.jpg');
+    background-size: cover;
+
+}
+
+.img-2 {
+    background: url("t-shirt-2.jpg");
+    background-size: cover;
+}
+
+.img-1:hover {
+    background: url('t-shrit-1-zoom.png');
+    background-size: cover;
+
+}
+
+.img-2:hover {
+    background: url("t-shirt-2-zoom.png");
+    background-size: cover;
+}
+
+.shop-heading {
+    text-align: center;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.scrolling-text {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    width: 90%;
+    margin: 100px auto;
+}
+
+.scrolling-text p {
+    font-size: 70px;
+    
+}
+
+div.scrolling-limit{
+    font-size: 100px;
+    overflow:hidden;
+    white-space:nowrap;
+    
+  }
+  
+  div.scrolling{
+    position: relative;
+    -webkit-animation: scroll 15s infinite linear;;
+    -moz-animation: scroll 15s infinite linear;
+    -o-animation: scroll 15s infinite linear;
+    animation: scroll 15s infinite linear;
+  }
+  
+  @keyframes scroll{
+      0%   {left: 1000px;}
+      100% {left: -5050px;}
+  }
+  @-webkit-keyframes scroll{
+      0%   {left: 1000px;}
+      100% {left: -5050px;}
+  }
+
+  .footer {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 30px;
+  }
+
+  .footer p {
+      padding:0;
+      margin: 0;
+  }
+
+  @media only screen and (max-width: 770px) {
+   
+    .features {
+        flex-direction: column;
+    }
+    .model-img {
+        width: 70vw;
+        height: auto;
+    }
+    .main-heading {
+        font-size: 70px;
+    }
+  }
+
+  @media only screen and (max-width:500px) {
+    .main-heading {
+        font-size: 50px;
+    }
+    .shop-heading {
+        font-size: 50px;
+    }
+  }
