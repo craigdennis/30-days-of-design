@@ -78,6 +78,14 @@ Day 18 Design: https://www.siteinspire.com/websites/9470-publish-something-onlin
 
 Day 18 Complete: http://30-days-of-design.netlify.app/day-18/index.html
 
+Day 19 Design: Gossip Type Website - Inspiration (https://mouthwash.co/)
+
+Day 19 Complete: http://30-days-of-design.netlify.app/day-19/index.html
+
+Day 20 Design: Magic Trick Website - Own Design
+
+Day 20 Complete: http://30-days-of-design.netlify.app/day-20/index.html
+
 
 
 
