@@ -86,6 +86,10 @@ Day 20 Design: Magic Trick Website - Own Design
 
 Day 20 Complete: http://30-days-of-design.netlify.app/day-20/index.html
 
+Day 21 Design: Recreated this website (https://www.redsquareagency.com/)
+
+Day 21 Complete: http://30-days-of-design.netlify.app/day-21/index.html
+
 
 
 
