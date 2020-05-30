@@ -90,6 +90,10 @@ Day 21 Design: Recreated this website (https://www.redsquareagency.com/)
 
 Day 21 Complete: http://30-days-of-design.netlify.app/day-21/index.html
 
+Day 21 Design: Used https://website-idea-generator.netlify.app/ to generator a design
+
+Day 21 Complete: http://30-days-of-design.netlify.app/day-21/index.html
+
 
 
 

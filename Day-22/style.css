@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap');
+
+h1,h2,h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(81, 173, 237);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+[data-component='slideshow'] .slide {
+  display: none;
+}
+
+[data-component='slideshow'] .slide.active {
+  display: block;
+}
+
+.slideshow {
+  position: relative;
+  background-color: red;
+}
+
+.header-text {
+  position: absolute;
+  top: 50px;
+  font-size: 8em;
+  color: white;
+}
+
+.hero-imgs {
+  height: auto;
+  width: 80vw;
+  border-radius: 5px;
+}
+
+.meter {
+  height: 10px;
+  position: relative;
+  top: -12px;
+  opacity: 1;
+  overflow: hidden;
+  width: 80vw;
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.progress {
+  background-color: white;
+  animation: progressBar 5s ease infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes progressBar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.division {
+  width: 100vw;
+  margin: 200px auto;
+}
+
+.division-dotted {
+  transform: translateX(-50px);
+  height: 5px;
+  border-bottom: 150px dotted #d2d58a;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 300px auto;
+}
+
+.cta-img {
+  width: 40vw;
+  height: auto;
+}
+
+.cta h2 {
+  padding-left: 50px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.btn {
+  margin-left: 50px;
+  width: 50%;
+  border-radius: 100px;
+  padding: 15px 0;
+  background-color: #d2d58a;
+  font-size: 20px;
+  color: white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-8px);
+  box-shadow: 1px 8px 6px rgba(0, 0, 0, 0.5);
+}
+
+#container {
+  /* This will come into play later */
+  perspective: 60px;
+}
+
+#inner {
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+}
+
+.features {
+  position: relative;
+  margin-top: 700px;
+}
+
+.features-img {
+  position: absolute;
+  width: 45vw;
+  height: auto;
+  top: -40vh;
+  left: 15vw;
+  z-index: 2;
+}
+
+.features-text {
+  position: absolute;
+  background-color: #d2d58a;
+  width: 30vw;
+  right: 0;
+  padding: 7em 10em 4em 5em;
+  font-size: 24px;
+}
+
+.email-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100em;
+  margin-bottom: 20em;
+}
+
+.email-signup h2 {
+  font-size: 70px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.email-inputter {
+  position: relative;
+}
+.email-input {
+  padding: 10px 100px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.email-input::placeholder {
+  text-align: center;
+}
+
+.email-btn {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  padding: 5px 16px;
+  border-radius: 3px;
+  font-size: 14px;
+  box-shadow: rgb(0, 0, 0) 3px 3px 0px;
+  transition: all 0.05s ease 0s;
+}
+
+.email-btn:hover {
+  box-shadow: rgb(0, 0, 0) 1px 1px 0px;
+  transform: translate(2px, 2px);
+}
+
+.footer {
+  background-color: #75782b;
+  padding-bottom: 50px;
+  transition: filter .2s;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer-header {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding-top: 30px;
+  margin-bottom: 5px;
+  transition: all .2s;
+}
+
+.footer-header:hover {
+  transform: scale(1.1);
+}
+
+.footer-content h3 {
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+.footer-content p {
+  margin-bottom: 5px;
+}
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  font-size: 30px;
+}
+
+.footer-header:hover ~ .footer-content {
+  filter: blur(3px);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .features-img {
+    top: -25vh;
+    left: 15vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-text {
+    font-size: 60px;
+    top:120px;
+  }
+  .features-img {
+    top: -25vh;
+    left: 15vw;
+  }
+
+  .cta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-text {
+    text-align: center;
+  }
+
+  .btn {
+    margin: 0 auto;
+  }
+
+  .features {
+    position: relative;
+    margin-top: 500px;
+  }
+  .features-text {
+    padding: 7em 6em 4em 5em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .header-text {
+    font-size: 35px;
+    top:140px;
+  }
+
+  .division {
+    margin: 50px auto;
+  }
+  
+  .division-dotted {
+    transform: translateX(-30px);
+    border-bottom: 25px dotted #d2d58a;
+  }
+
+  .cta {
+    margin: 100px auto;
+  }
+
+  .cta-img {
+    width: 80vw;
+  }
+
+  .cta h2 {
+    text-align: center;
+  }
+
+  .features {
+    margin-top: 300px;
+  }
+
+  .features-img {
+    width: 80vw;
+    position: relative;
+  
+  }
+
+  .features-text {
+    width: 70vw;
+    position: relative;
+    padding: 2em;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .email-signup {
+    margin-top: 5em;
+    margin-bottom: 5em;
+  }
+  .email-signup h2 {
+    font-size: 50px;
+  }
+
+  .email-input {
+    padding: 10px;
+  }
+}
