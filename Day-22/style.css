@@ -74,7 +74,7 @@ body {
 
 .progress {
   background-color: white;
-  animation: progressBar 5s ease infinite;
+  animation: progressBar 5.02s ease infinite;
   animation-fill-mode: both;
 }
 
