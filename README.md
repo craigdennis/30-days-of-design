@@ -94,6 +94,10 @@ Day 22 Design: Used https://website-idea-generator.netlify.app/ to generator a d
 
 Day 22 Complete: http://30-days-of-design.netlify.app/day-22/index.html
 
+Day 23 Design: Used https://website-idea-generator.netlify.app/ to generator a design
+
+Day 23 Complete: http://30-days-of-design.netlify.app/day-23/index.html
+
 
 
 

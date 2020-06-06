@@ -1,0 +1,280 @@
+@font-face {
+  font-family: Besley;
+  src: url(font/Besley-Book.otf);
+}
+
+@font-face {
+  font-family: Jost;
+  src: url(font/Jost-400-Book.ttf);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(81, 173, 237);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main-heading h1 {
+  font-family: Besley;
+  font-size: 2sem;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Jost;
+}
+
+.btn {
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  color: black;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  background: rgb(15, 146, 108);
+  background: linear-gradient(
+    132deg,
+    rgba(15, 146, 108, 1) 26%,
+    rgba(1, 70, 50, 1) 100%
+  );
+  height: 95%;
+  width: 100vw;
+}
+
+.main-heading p {
+  font-size: 1.5em;
+}
+
+.header-btn {
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+}
+
+.heading-text {
+  padding: 2%;
+  order: 1;
+}
+.header-img {
+  width: 100%;
+  height: 100%;
+  order: 2;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 10%;
+}
+
+.pricing-item {
+  flex: 0 0 100%;
+  margin: 2% auto;
+  position: relative;
+}
+
+.pricing-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.pricing-card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  top: 0;
+  right: 0;
+  padding: 0 2%;
+  opacity: 0;
+  width: 30%;
+  color: white;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+
+.pricing-card h2 {
+  margin-bottom: 0;
+}
+
+.pricing-btn {
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.sign-up {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.pricing-item:hover .pricing-card {
+  opacity: 1;
+}
+
+.wave-img {
+  transform: translateY(6px);
+}
+
+.inner-container {
+  background: rgb(15, 146, 108);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter-img {
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.sign-up h2 {
+  text-align: center;
+  color: white;
+}
+
+.newsletter-text {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.input {
+  width: 50%;
+  height: 25px;
+  
+}
+.sign-up-btn {
+  margin-top: 2%;
+  padding: 5px 25px;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-heading {
+    flex-direction: row;
+  }
+
+  .heading-text {
+    padding: 2%;
+    order: initial;
+  }
+  .header-img {
+    width: 100%;
+    height: 100%;
+    order: initial;
+  }
+
+  .pricing-item {
+    flex: 0 0 40%;
+    margin-left: 5%;
+  }
+
+  .inner-container {
+    background: rgb(15, 146, 108);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 6%;
+  }
+
+  .newsletter-img {
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+
+  .newsletter-img {
+    padding: 0 2%;
+  }
+
+  .sign-up h2 {
+    text-align: right;
+    color: white;
+  }
+
+  .input {
+    width: 90%;
+    height: 25px;
+    
+  }
+
+  .pricing-btn {
+    margin-top: 70%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .pricing-item {
+    flex: 0 0 30%;
+  }
+  .main-heading h1 {
+    font-family: Besley;
+    font-size: 5em;
+    text-transform: uppercase;
+  }
+  .main-heading {
+    flex-direction: row;
+  }
+
+  .heading-text {
+    padding: 2%;
+    order: initial;
+  }
+  .header-img {
+    width: 100%;
+    height: 100%;
+    order: initial;
+  }
+
+  .pricing-item {
+    margin-left: 3%;
+  }
+
+  .newsletter-img {
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .sign-up h2 {
+    text-align: center;
+    color: white;
+  }
+
+  .input {
+    width: 50%;
+    height: 25px;
+    
+  }
+
+  .pricing-btn {
+    margin-top: 85%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+}
